@@ -19,8 +19,7 @@ int main(void) {
     ten_bill = amount / 10;
     amount = amount - (ten_bill * 10); 
     five_bill = amount / 5; 
-    amount = amount - (ten_bill * 5); 
-    one_bill = amount / 1; 
+    amount = amount - (five_bill * 5);  // Fixed: using five_bill    one_bill = amount / 1; 
 
     // Display the results
     printf("$20 bill: %d\n", twenty_bill);

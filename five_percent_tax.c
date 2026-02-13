@@ -1,28 +1,27 @@
 /* Author: Mani Obara
- * Purpose: inputs an amount and calculates 5 percent tax on it and prints out
- * the result.
+ * Purpose: Calculates the final price after adding a tax percentage to an initial amount
  */
 
 #include <stdio.h>
 
 int main(void) {
-    // amount, tax and result variable defined
+    // Declare variables for the initial amount, tax rate, and final result
     float amount, tax, result; 
 
-    // Get the amount input
+    // Prompt user and store the initial monetary amount
     printf("Enter an amount: ");
     scanf("%f", &amount);
 
-    // Get the tax input 
+    // Prompt user and store the tax percentage (e.g., 5 for 5% tax)
     printf("Enter the tax amount: "); 
     scanf("%f", &tax);
 
-    // Calculate the result 
+    // Calculate total by adding tax percentage to original amount
+    // Formula: amount + (amount * tax_rate_as_decimal)
     result = amount + (amount * (tax / 100.0f));
 
-    // Display the result
+    // Display the final amount with tax included
     printf("The final amount after tax is %f$\n", result);
 
-    // End the program
-    return 0;
+    return 0; // Indicate successful program completion
 }
