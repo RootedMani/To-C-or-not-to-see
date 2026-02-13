@@ -1,6 +1,5 @@
 /* Author: Mani Obara
  * Purpose: calculate the volume of an sphere
- * Date: 2026/24/1
  */
 
 #include <stdio.h>

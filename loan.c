@@ -1,3 +1,9 @@
+/* Author: Mani Obara
+ * Purpose: calculates first, second and third month remaining balance for a loan
+ * based on the interest, monthly payement and the loan amount which are given to
+ * the program as inputs
+ */
+
 #include <stdio.h>
 
 int main(void) {

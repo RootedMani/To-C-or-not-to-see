@@ -1,3 +1,8 @@
+/* Author: Mani Obara
+ * Purpose: This program evaluates a 5th-degree polynomial for a user-input value of
+ * x using Horner's method (nested multiplication) and displays the result.
+ * pay to pay the full amount.
+ */
 #include <stdio.h>
 
 int main(void) {
