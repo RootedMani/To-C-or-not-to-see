@@ -1,24 +1,24 @@
 /* Author: Mani Obara
- * Purpose: This program evaluates a 5th-degree polynomial for a user-input value of
- * x using Horner's method (nested multiplication) and displays the result.
- * pay to pay the full amount.
+ * Purpose: Evaluates a 5th-degree polynomial using Horner's method (nested multiplication)
+ * for efficient computation with fewer operations
  */
+
 #include <stdio.h>
 
 int main(void) {
-    // Define the x and result variable
+    // Declare variable for user input and the calculated result
     float x, result;
 
-    // Get an input for the x variable from the user
+    // Prompt user to enter the value for the polynomial variable
     printf("Enter the x variable: "); 
     scanf("%f", &x); 
 
-    // Calculate the result 
+    // Evaluate polynomial 3x⁵ + 2x⁴ - 5x³ - x² + 7x - 6 using Horner's method
+    // Nested multiplication reduces operations and improves efficiency
     result = ((((3.0f * x + 2.0f) * x - 5.0f) * x - 1.0f) * x + 7.0) * x - 6.0f;
 
-    // Display the result 
+    // Output the calculated polynomial result
     printf("%f\n", result); 
 
-    // End the program
-    return 0;
+    return 0; // Indicate successful program completion
 }
