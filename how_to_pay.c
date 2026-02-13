@@ -1,3 +1,8 @@
+/* Author: Mani Obara
+ * Purpose: calculates how many 20, 10, 5 and one dollar bill should you
+ * pay to pay the full amount.
+ */
+
 #include <stdio.h>
 
 int main(void) {

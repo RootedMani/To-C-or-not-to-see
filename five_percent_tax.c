@@ -1,3 +1,8 @@
+/* Author: Mani Obara
+ * Purpose: inputs an amount and calculates 5 percent tax on it and prints out
+ * the result.
+ */
+
 #include <stdio.h>
 
 int main(void) {

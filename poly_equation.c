@@ -1,3 +1,7 @@
+/* Author: Mani Obara
+ * Purpose: calculates the result of a polynomial equation
+ */
+
 #include <stdio.h>
 
 int main(void) {
